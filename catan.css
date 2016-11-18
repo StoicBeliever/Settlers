@@ -1,0 +1,21 @@
+#gameboard {
+	position: relative;
+	width: 90vw;
+	margin-left: 5vw;
+	height: 90vw;
+	margin-top: 20px;
+	height: calc(100vh - 173px);
+}
+
+.tile {
+	position: absolute;
+	background-image: url('assets/BlankHex.svg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.pull-left {
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+}
